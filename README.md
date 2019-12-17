@@ -24,7 +24,7 @@ $ python test_robotiq.py
 to exit program, press ctrl-c.
 ```
 ## technical information
-It is necessary rs485 URcap. That is daemon for communicate between ur3e's rs485 network and external pc via tcp/ip.
+It is necessary rs485 URcap. That is daemon for communicate between ur3e's rs485 network and external pc via tcp (port 54321).
 RobotiqHand module use this mechanism.
 So you must activate rs485 URCap on ur3e.
 And,
