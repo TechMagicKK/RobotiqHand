@@ -22,5 +22,6 @@ on test_robotiq.py, change HOST ip address to ur3e
 ## test
 ```
 $ python test_robotiq.py
+to exit program, press ctrl-c.
 ```
 
