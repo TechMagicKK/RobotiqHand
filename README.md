@@ -7,9 +7,11 @@ python 2.7
 ```
 ## prepare on ur3e
 ```
-append 'rs485' Settings/System/URCaps
-remove 'Robotiq_Grippers' Settings/System/URCaps
-setup Settings/System/Network
+Settings/System/URCaps
+	append 'rs485'
+	remove Robotiq_Grippers'
+Settings/System/Network
+	setup ur3e's network info.
 ```
 ## prepare on ubuntu pc
 ```
