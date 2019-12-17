@@ -1,4 +1,4 @@
-# RobotiqHand for control from external ubuntu pc
+# RobotiqHand control python2.7 module from external ubuntu pc
 ## environments
 ```
 ur3e
@@ -9,7 +9,7 @@ python 2.7
 ```
 Settings/System/URCaps
 	append 'rs485'
-	remove Robotiq_Grippers'
+	remove 'Robotiq_Grippers'
 Settings/System/Network
 	setup ur3e's network info.
 ```
